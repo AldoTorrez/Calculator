@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/calculadora.png">
+    <title>Calculator</title>
+</head>
+<body>
+    <h3>CALCULATOR</h3>
+        <input type="text" class="visor">
+        <div class="botons">
+            <div class="gray" onclick="borrar()">AC</div>
+            <div class="gray" onclick="eliminar()"><=</div>
+            <div class="gray" onclick="resolved('%')">%</div>
+            <div class="orange" onclick="resolved('/')">/</div>
+            <div class="black" onclick="resolved('7')">7</div>
+            <div class="black" onclick="resolved('8')">8</div>
+            <div class="black" onclick="resolved('9')">9</div>
+            <div class="orange" onclick="resolved('*')">*</div>
+            <div class="black" onclick="resolved('4')">4</div>
+            <div class="black" onclick="resolved('5')">5</div>
+            <div class="black" onclick="resolved('6')">6</div>
+            <div class="orange" onclick="resolved('-')">-</div>
+            <div class="black" onclick="resolved('1')">1</div>
+            <div class="black" onclick="resolved('2')">2</div>
+            <div class="black" onclick="resolved('3')">3</div>
+            <div class="orange" onclick="resolved('+')">+</div>
+            <div id="cero" class="black" onclick="resolved('0')">0</div>
+            <div class="black" onclick="resolved(',')">,</div>
+            <div class="orange" onclick="response()">=</div>
+        </div>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</html>

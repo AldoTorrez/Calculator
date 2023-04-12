@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url('./images/font-calculator.jpg');
+    background-size: cover;
+}
+.visor{
+    background-color: black;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    color: white;
+    width: 90%;
+    height: 90px;
+    margin: 18px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+    box-shadow: 5px 5px 10px rgb(52, 176, 248);
+}
+.botons{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.botons div{
+    margin: 10px;
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.botons div:active{
+    background-color: black;
+    color: white;
+}
+.gray{
+    background-color: white;
+    box-shadow: 2px 2px 3px white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 3px orange;
+}
+.black{
+    background-color: gray;
+    color: white;
+    box-shadow: 2px 2px 3px gray;
+}
+
+#cero{
+    width: 150px;
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 5px 5px 3px red;
+}
