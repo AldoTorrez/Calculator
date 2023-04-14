@@ -31,7 +31,7 @@ Descarga los archivos del proyecto en tu computadora.
 Abre el archivo "index.html" en tu navegador web.
 ## Deploy
 ```
-https://calculator-beta-lilac-45.vercel.app/
+[https://calculator-beta-lilac-45.vercel.app]
 ```
 
 ## Mejoras futuras
