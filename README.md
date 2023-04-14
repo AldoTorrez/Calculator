@@ -1,6 +1,3 @@
-# Calculator
-calculadora diseñada para ser fácil de usar y que brinda resultados precisos.
-
 # Calculadora Básica
 Esta es una aplicación de calculadora básica que te permite realizar operaciones aritméticas simples como sumar, restar, multiplicar y dividir.
 
