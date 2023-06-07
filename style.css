@@ -2,7 +2,7 @@
     margin: 0px;
 }
 body{
-    background-image: url('./images/font-calculator.jpg');
+    background-color:  black;
     background-size: cover;
 }
 .visor{
@@ -65,4 +65,44 @@ h3{
     text-align: center;
     margin-top: 10px;
     text-shadow: 5px 5px 3px red;
+}
+
+@media (max-width: 2560px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://leanfinance.es/wp-content/uploads/2020/09/Lean-Finance-Plantilla-blog-4-1.png');
+        background-size: cover;
+    }
+    body .media{
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        margin-top: 15px;
+        border: 1px solid white;
+    }
+    .botons{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-top: -10px;
+        border-radius: 0px;
+    }
+    .visor{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .gray{
+        cursor: pointer;
+    }
+    .orange{
+        cursor: pointer;
+    }
+    .black{
+        cursor: pointer;
+    }
 }
